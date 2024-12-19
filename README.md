@@ -1,0 +1,3 @@
+# Node.js Server Hang on Long Requests
+
+This repository demonstrates a common issue in Node.js where long-running requests can cause the server to appear unresponsive.  The `bug.js` file contains a simple HTTP server that simulates a 5-second delay in processing a request.  This can lead to the server hanging or failing to respond to other requests. The `bugSolution.js` file provides a solution using streams to address this problem.
